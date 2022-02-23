@@ -1,0 +1,56 @@
+html {
+  background-color: whitesmoke;
+}
+h1 {
+  text-align: center;
+}
+body {
+  position: relative;
+}
+#all {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  position: absolute;
+  left: 30%;
+  transform: translate((-50%, 0));
+}
+.outside {
+  padding: 10px;
+  background-color: white;
+  width: 300px;
+  height: 500px;
+  margin: 20px 0px;
+}
+.second {
+  height: 500px;
+  position: relative;
+}
+#all div:first-of-type .second {
+  background-color: tomato;
+}
+#all div:nth-last-of-type(3) .second {
+  background-color: teal;
+}
+#all div:nth-last-of-type(1) .second {
+  background-color: thistle;
+}
+#all div:nth-last-of-type(2) .second {
+  background-color: burlywood;
+}
+.inside {
+  width: 300px;
+  height: 150px;
+  background-color: white;
+  position: absolute;
+  top: 50px;
+}
+div span {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 25px;
+}
+.color {
+  font-size: 30px;
+}
