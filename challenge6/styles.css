@@ -1,0 +1,145 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  background-color: #fae100;
+  position: relative;
+}
+.status-bar__text {
+  font-weight: bold;
+}
+
+.search-bar {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -30px;
+}
+.search-bar__input input {
+  width: 280px;
+  height: 50px;
+  border-radius: 40px;
+  border: 0px;
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding-left: 50px;
+}
+.search-bar__input i {
+  position: absolute;
+  left: 500px;
+  top: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.today {
+  display: flex;
+  justify-content: flex-start;
+  font-weight: bold;
+  font-size: larger;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
+
+.todays-book {
+  display: flex;
+  justify-content: flex-start;
+}
+.todays-book__profile {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.todays-book__profile img {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.todays-book__name {
+  font-weight: bold;
+}
+.todays-book__publisher {
+  color: rgba(0, 0, 0, 0.5);
+}
+.todays-book__scope i {
+  color: #fae100;
+}
+.todays-book__btn {
+  margin: 10px 3px;
+}
+.todays-book__btn input {
+  border: none;
+  padding: 5px 8px;
+  border-radius: 5px;
+}
+.todays-book__booking {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todays-book__booking input {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+.todays-book__booking i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fae100;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.recommendation-header {
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+.recommendation-contents__img img {
+  width: 90px;
+  height: 140px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.recommendation-contents__scope {
+  margin-left: 10px;
+  color: #fae100;
+}
+.recommendation-contents {
+  display: flex;
+}
+
+.authors-header {
+  font-weight: bold;
+  font-size: larger;
+  margin: 20px 10px;
+}
+.authors-contents {
+  display: flex;
+  justify-content: center;
+}
+.authors-contents__img img {
+  width: 100px;
+  height: 140px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.authors-contents__text__name {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.9);
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.authors-contents__text__details {
+  margin-left: 30px;
+  color: rgba(0, 0, 0, 0.4);
+}
