@@ -1,3 +1,6 @@
+html {
+  background-color: var(--purple);
+}
 .welcome-header {
   margin: 90px 0px;
   text-align: center;
@@ -21,9 +24,10 @@
 }
 #login-form input {
   border: none;
-  padding: 15px 0px;
+  padding: 15px 15px;
   font-size: 18px;
   margin-bottom: 25px;
+  border-radius: 15px;
 }
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
@@ -33,10 +37,9 @@
   color: rgba(0, 0, 0, 0.4);
 }
 #login-form input:focus {
-  border-color: var(--yellow);
+  border-color: var(--purple);
 }
-
-#login-form input[type="submit"] {
+#login-form input #login-form input[type="submit"] {
   background-color: var(--yellow);
   cursor: pointer;
   padding: 20px 0px;
