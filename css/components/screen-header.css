@@ -58,3 +58,15 @@
 .screen-header__icons .fa-search:hover {
   animation: moveMag 1s linear;
 }
+.screen-header__icons {
+  position: relative;
+}
+.screen-header__icons__alert {
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  position: absolute;
+  border-radius: 2px;
+  top: -8px;
+  right: -10px;
+}
