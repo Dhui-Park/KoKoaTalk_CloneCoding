@@ -1,11 +1,11 @@
 #chat-screen {
-  background-color: #abc1d1;
+  background-color: var(--purple);
   height: 500vh;
 }
 
 #chat-screen .alt-header,
 #chat-screen .status-bar {
-  background-color: #abc1d1;
+  background-color: var(--purple);
   top: 0px;
   position: fixed;
   width: 100%;
@@ -132,7 +132,7 @@
   top: 15px;
 }
 .reply__column button {
-  background-color: var(--yellow);
+  background-color: var(--purple);
   border: none;
   width: 25px;
   height: 25px;
